@@ -2783,6 +2783,7 @@ phreak_patches() {
 	phreak_tree_module "funcs/func_dbchan.c"
 	phreak_tree_module "funcs/func_dtmf_flash.c"
 	phreak_tree_module "funcs/func_dtmf_trace.c"
+	phreak_tree_module "funcs/func_euniqueid.c"
 	phreak_tree_module "funcs/func_message_sub.c"
 	phreak_tree_module "funcs/func_nanpa.c"
 	phreak_tree_module "funcs/func_notchfilter.c"

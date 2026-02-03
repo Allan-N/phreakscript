@@ -111,6 +111,7 @@ PhreakScript installs:
       - ``DB_MAXKEY``
       - ``DB_MINKEY``
       - ``DB_UNIQUE``
+      - ``EPHEMERAL_UNIQUEID``
       - ``NANPA``
       - ``SIP_PARAMETER``
       - ``MESSAGE_INTERCEPT_SUB``
