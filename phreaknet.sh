@@ -2854,10 +2854,7 @@ phreak_patches() {
 	fi
 
 	## Merged, not yet in a release version (use asterisk_pr_if, e.g. asterisk_pr_if 1234 220400 210900 201400)
-	asterisk_pr_if 1302 220600 211100 201600 # sig_analog: Fix STP, ST2P, ST3P for fgccamamf
-	asterisk_pr_if 1376 220600 211100 201600 # dsp.c debug - needed for blueboxing patch to apply
-	asterisk_pr_if 1379 220600 211100 201600 # chan_dahdi: permdialmode - needed for rtoutpulsing patches to apply
-	asterisk_pr_if 1456 230100 220700 211200 201700 # chan_dahdi: Add DAHDI_CHANNEL function
+	asterisk_pr_if 1704 230300 220900 201900 # res_pjsip_pubsub: Fix ao2 reference leak of subscription tree in ast_sip_subscription, esp. important for --experimental patches
 
 	## Unmerged patches: remove or switch to asterisk_pr_if once merged
 
